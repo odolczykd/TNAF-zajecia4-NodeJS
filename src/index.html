@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cookie Clicker</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Scripts -->
+    <script type="module" src="main.js"></script>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="logo">
+        <span class="flex"> C<img class="cookie-small" src="img/cookie.png"/><img class="cookie-small" src="img/cookie.png"/>kie Clicker </span>
+    </header>
+
+    <main class="container">
+
+        <section class="col-1">
+            <div>Cookies produced:</div>
+            <h1 id="produced-cookies">0</h1>
+
+            <img src="img/cookie.png" alt="cookie" id="cookie">
+
+            <section class="row-inner">
+                <div>Cookies per click: </div>
+                <h1 id="cookies-per-click">1</h1>
+            </section>
+
+            <section class="row-inner">
+                <div>Cookies per second: </div>
+                <h1 id="cookies-per-sec">0</h1>
+            </section>
+
+        </section>
+
+        <section class="col-2">
+
+            <!--
+            <div class="bonus">
+                <div class="bonus-desc">
+                    <div class="bonus-name">INCREASE COOKIES PER CLICK</div>
+                    <div><span class="bonus-name-darker">Cost: <span id="incr-cost"></span></span>
+                        (+)</div>
+                </div>
+                <button class="level-up-btn" id="button-0">Increase!</button>
+            </div>
+            -->
+
+            <div class="bonus">
+                <div class="bonus-desc">
+                    <div class="bonus-name" id="name-1">CURSOR / Cost: <span id="bonus-1-cost"></span></div>
+                    <div><span class="bonus-name-darker">LEVEL <span id="bonus-1-level"></span></span> (+<span id="bonus-1-upgrade"></span> cookies per sec)</div>
+                </div>
+                <button class="level-up-btn" id="button-1">Level Up!</button>
+            </div>
+
+            <div class="bonus">
+                <div class="bonus-desc">
+                    <div class="bonus-name">GRANDMA / Cost: <span id="bonus-2-cost"></span></div>
+                    <div><span class="bonus-name-darker">LEVEL <span id="bonus-2-level"></span></span> (+<span id="bonus-2-upgrade"></span> cookies per sec)</div>
+                </div>
+                <button class="level-up-btn" id="button-2">Level Up!</button>
+            </div>
+
+            <div class="bonus">
+                <div class="bonus-desc">
+                    <div class="bonus-name">FACTORY / Cost: <span id="bonus-3-cost"></span></div>
+                    <div><span class="bonus-name-darker">LEVEL <span id="bonus-3-level"></span></span> (+<span id="bonus-3-upgrade"></span> cookies per sec)</div>
+                </div>
+                <button class="level-up-btn" id="button-3">Level Up!</button>
+            </div>
+
+            <div class="bonus">
+                <div class="bonus-desc">
+                    <div class="bonus-name">SHIPMENT / Cost: <span id="bonus-4-cost"></span></div>
+                    <div><span class="bonus-name-darker">LEVEL <span id="bonus-4-level"></span></span> (+<span id="bonus-4-upgrade"></span> cookies per sec)</div>
+                </div>
+                <button class="level-up-btn" id="button-4">Level Up!</button>
+            </div>
+
+            <div class="bonus">
+                <div class="bonus-desc">
+                    <div class="bonus-name">PORTAL / Cost: <span id="bonus-5-cost"></span></div>
+                    <div><span class="bonus-name-darker">LEVEL <span id="bonus-5-level"></span></span> (+<span id="bonus-5-upgrade"></span> cookies per sec)</div>
+                </div>
+                <button class="level-up-btn" id="button-5">Level Up!</button>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>Implemeneted By <a href="https://linkedin.com/in/odolczykd" target="_blank">Dawid Odolczyk</a></p>
+        <p>GitHub: <a href="https://github.com/odolczykd/TNAF-zajecia4-NodeJS" target="_blank">Click Here!</a></p>
+        <p>Page made for learning purposes</p>
+    </footer>
+
+</body>
+</html>

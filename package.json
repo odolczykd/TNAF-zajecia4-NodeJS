@@ -1,0 +1,25 @@
+{
+  "name": "cookie-clicker",
+  "version": "1.0.0",
+  "description": "The 'Cookie Clicker' implementation for college studies",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run dev",
+    "dev": "parcel src/index.html --open",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odolczykd/TNAF-zajecia4-NodeJS.git"
+  },
+  "author": "Dawid Odolczyk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/odolczykd/TNAF-zajecia4-NodeJS/issues"
+  },
+  "homepage": "https://github.com/odolczykd/TNAF-zajecia4-NodeJS#readme",
+  "devDependencies": {
+    "parcel": "^2.8.2"
+  }
+}
