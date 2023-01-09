@@ -38,6 +38,7 @@ for(let i=1; i<=5; i++){
         if(buttons.at(i-1).classList.contains('level-up-btn-available')){
             levels[i-1]++;
             cookiesPerSec += upgrades.at(i-1);
+            cookiesPerClick += upgrades.at(i-1) + 0.1*cookiesPerSec;
             cookiesCounter -= costs.at(i-1);
             costs[i-1] = Math.round(costs.at(i-1) * 1.3);
             updateDisplay();
@@ -60,6 +61,7 @@ function checkIfBonusesAvailable(){
 function updateDisplay(){
     producedCookies.innerText = Math.round(cookiesCounter);
     CPSSelector.innerText = Math.round(10*cookiesPerSec)/10;
+    CPCSelector.innerText = Math.round(10*cookiesPerClick)/10;
 }
 
 function setValues(){
